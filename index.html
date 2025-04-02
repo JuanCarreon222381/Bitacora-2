@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Segundo Parcial</title>
+    <link rel="stylesheet" href="./CSS/estilo.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#mobile-first">Mobile First</a></li>
+            <li><a href="#flexbox-padre">Módulo Flexbox - Padre</a></li>
+            <li><a href="#flexbox-hijo">Módulo Flexbox - Hijo</a></li>
+            <li><a href="#imagenes-responsivas">Imágenes Responsivas</a></li>
+            <li><a href="#svg">SVG</a></li>
+            <li><a href="#variables-css">Variables CSS</a></li>
+            <li><a href="#tipografia-responsiva">Tipografía Responsiva</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Bitácora de Desarrollo Web</h1>
+    </header>
+
+    <main>
+        <section id="mobile-first">
+            <h2>Mobile First</h2>
+            <div class="content">
+                <div class="ideas">
+                    <h3>Ideas Principales</h3>
+                    <ul>
+                        <li>Se diseña primero para dispositivos móviles y luego se adapta a pantallas más grandes.</li>
+                        <li>Optimiza el rendimiento en dispositivos con menor capacidad.</li>
+                        <li>Favorece una mejor experiencia de usuario al priorizar el contenido esencial.</li>
+                        <li>Se basa en el uso de media queries para ampliar el diseño a dispositivos más grandes.</li>
+                    </ul>
+                </div>
+                <div class="clase">
+                    <h3>Definición</h3>
+                    <p>El enfoque "Mobile First" prioriza el diseño para dispositivos móviles antes que para pantallas más grandes. Esto mejora la accesibilidad y el rendimiento en dispositivos con menor capacidad.</p>
+                </div>
+                <div class="imagen">
+                    <img src="imagenes/MobilFirts.png" alt="Mobile First">
+                </div>
+            </div>
+        </section>
+
+        <section id="flexbox-padre">
+            <h2>Módulo Flexbox - Padre</h2>
+            <div class="content">
+                <div class="ideas">
+                    <h3>Ideas Principales</h3>
+                    <ul>
+                        <li>Flexbox permite organizar elementos de forma flexible dentro de un contenedor.</li>
+                        <li>Facilita la alineación de elementos en diferentes direcciones (filas o columnas).</li>
+                        <li>Se usa para distribuir el espacio de manera eficiente, incluso cuando los tamaños de los elementos son desconocidos.</li>
+                        <li>Controla la alineación horizontal y vertical de los elementos hijos.</li>
+                    </ul>
+                </div>
+                <div class="clase">
+                    <h3>Definición</h3>
+                    <p>Flexbox es un modelo de diseño CSS que facilita la alineación y distribución de elementos en un contenedor flexible.</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/flex-box-Padre.png" alt="Flexbox Padre">
+                </div>
+            </div>
+        </section>
+
+        <section id="flexbox-hijo">
+            <h2>Módulo Flexbox - Hijo</h2>
+            <div class="content">
+                <div class="ideas">
+                    <h3>Ideas Principales</h3>
+                    <ul>
+                        <li>Los elementos hijos pueden crecer o reducirse dinámicamente según el espacio disponible.</li>
+                        <li>Se puede controlar su tamaño inicial y cómo se ajustan dentro del contenedor.</li>
+                        <li>Ayuda a crear interfaces flexibles y responsivas sin necesidad de tamaños fijos.</li>
+                    </ul>
+                </div>
+                <div class="clase">
+                    <h3>Definición</h3>
+                    <p>Los elementos hijos dentro de un contenedor Flexbox pueden alinearse de manera flexible utilizando propiedades específicas.</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/flexbox-css-new.png" alt="Flexbox Hijo">
+                </div>
+            </div>
+        </section>
+
+        <section id="imagenes-responsivas">
+            <h2>Imágenes Responsivas</h2>
+            <div class="content">
+                <div class="ideas">
+                    <h3>Ideas Principales</h3>
+                    <ul>
+                        <li>Deben adaptarse automáticamente a diferentes tamaños de pantalla.</li>
+                        <li>Se pueden utilizar diferentes formatos según la resolución del dispositivo.</li>
+                        <li>picture y srcset permiten optimizar la carga de imágenes para cada pantalla.</li>
+                        <li>Evita el uso de imágenes fijas que puedan afectar la experiencia de usuario.</li>
+                    </ul>
+                </div>
+                <div class="clase">
+                    <h3>Definición</h3>
+                    <p>Las imágenes responsivas se adaptan automáticamente al tamaño del dispositivo sin perder calidad.</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/Responsiva.png" alt="Imágenes Responsivas">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script defer src="./JS/script.js"></script>
+</html>
